@@ -100,3 +100,12 @@ transform translateX(-50%) translateY(-20%);
 text-align: left; 
 } 
 
+#exercept {
+	position: absolute; 
+	left: 50%; 
+	top: 25%; 
+	transform translateX(-50%) translateY(-20%);
+	text-align: left; 
+} 
+
+	
