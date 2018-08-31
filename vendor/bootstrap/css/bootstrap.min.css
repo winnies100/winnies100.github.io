@@ -101,7 +101,18 @@ nav ul li ul li a:hover {
 	text-align: right; 
 	box-sizing: border-box; 
 	color: #fff; 
-	font-size: 30px; 
+	font-size: 30px;
+	display: none; 
+} 
+
+@media (max-width:768px) {
+	.toggle { 
+		display: block; 
+	} 
+	ul { width: 100% } 
+	ul li { 
+		display: block; 
+		text-align: center; } 
 } 
 
 h1 { 
