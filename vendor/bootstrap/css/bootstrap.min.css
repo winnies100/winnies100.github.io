@@ -17,6 +17,7 @@ nav p {
   color: #222; 
   font-size: 22px; 
   line-height:55px;
+  padding: 0px 20px; 
 } 
 
 nav ul { 
@@ -25,5 +26,24 @@ nav ul {
 
 nav ul li { 
   float: left; 
-  list-style:none; 
+  list-style:none;
+  position: relative; 
+  
 } 
+
+nav ul li a { 
+  display: block; 
+  font-family: arial; 
+  color: #222; 
+  font-size: 14px; 
+  padding: 22px 14px; 
+  text-decoration: none; 
+}
+
+nav ul li ul { 
+  display: block; 
+  position: absolute; 
+  background-color: #fff 
+  
+}
+
