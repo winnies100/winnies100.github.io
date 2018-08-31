@@ -11,6 +11,7 @@
   padding:0; 
 } 
 
+/*! Footer */   
 html, body { 
 	height: 100%; 
 } 
@@ -37,6 +38,7 @@ nav{
   height:60px; 
   background-color: #B9D3EE  
 } 
+
 
 nav p { 
   font-family: arial; 
@@ -91,6 +93,16 @@ nav ul li ul li a {
 nav ul li ul li a:hover { 
   background-color: #f3f3f3; 
 }
+
+.toggle{ 
+	width: 100%; 
+	padding: 10px 20px; 
+	background: #222;
+	text-align: right; 
+	box-sizing: border-box; 
+	color: #fff; 
+	font-size: 30px; 
+} 
 
 h1 { 
 position: absolute; 
