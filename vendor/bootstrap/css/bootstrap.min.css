@@ -22,12 +22,12 @@ nav p {
   color: #222; 
   font-size: 22px; 
   line-height:55px;
-  float: right; 
+  float: left; 
   padding: 0px 20px; 
 } 
 
 nav ul { 
-  float: left; 
+  float: right; 
 } 
 
 nav ul li { 
